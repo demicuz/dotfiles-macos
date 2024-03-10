@@ -1,0 +1,6 @@
+/*
+!/.*ignore
+!/*.sublime-*
+!/*.md
+!/*.py
+!/makefile

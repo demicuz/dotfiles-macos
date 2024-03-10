@@ -1,0 +1,55 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+    "auto_complete_use_history": true,
+    // "auto_find_in_selection": true,
+    "find_selected_text": true,
+    "drag_text": false,
+
+    "font_face": "JetBrains Mono",
+    "font_size": 16,
+    "ignored_packages":
+    [
+        "MarkdownEditing",
+        "Vintage",
+    ],
+    "save_on_focus_lost": true,
+    "scroll_context_lines": 6,
+    "line_padding_top": 1,
+    "line_padding_bottom": 1,
+    "scroll_past_end": 0.8,
+    "auto_complete_trailing_symbols": true,
+    /*"auto_complete_use_history": true,*/
+
+    // Neovintageous settings
+    "vintageous_reset_mode_when_switching_tabs": false,
+    "vintageous_enable_sneak": true,
+    "vintageous_sneak_use_ic_scs": 1,
+    "relative_line_numbers": true,
+    "vintageous_use_sys_clipboard": true,
+
+    //"vintageous_use_ctrl_keys": true,
+    "neovintageous_build_version": 13200,
+    "vintageous_highlighted_yank_duration": 100,
+    "vintageous_use_super_keys": false,
+    "index_files": true,
+
+    "vintageous_auto_switch_input_method": true,
+    "vintageous_auto_switc~h_input_method_default": "ABC",
+    "vintageous_auto_switch_input_method_get_cmd": "hs -c \"hs.alert.show(\\\"get\\\")\";/bin/echo \\\"ABC\\\";",
+    "vintageous_auto_switch_input_method_set_cmd": "/usr/local/bin/hs -c \"hs.keycodes.setLayout(\\\"ABC\\\")\"",
+
+    "trim_trailing_white_space_on_save": "not_on_caret",
+
+    // Themes and color schemes
+    "theme": "auto",
+    "dark_theme": "ayu-mirage.sublime-theme",
+    "light_theme": "ayu-light.sublime-theme",
+    "color_scheme": "auto",
+    "dark_color_scheme": "Mariana.sublime-color-scheme",
+    "light_color_scheme": "ayu-light.sublime-color-scheme",
+
+    "ui_native_titlebar": false,
+    "ui_separator": false,
+    "ui_wide_scrollbars": true,
+}

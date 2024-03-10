@@ -1,0 +1,17 @@
+[
+
+	{ "keys": ["super+minus"], "command": "fold" },
+	{ "keys": ["super+equals"], "command": "unfold" },
+	// { "keys": ["super+plus"], "command": "unfold" },
+
+	{ "keys": ["super+alt+plus"], "command": "increase_font_size" },
+	{ "keys": ["super+alt+minus"], "command": "decrease_font_size" },
+	{ "keys": ["alt+h"], "command": "sublime_merge_file_history" },
+
+	{ "keys": ["super+["], "command": "jump_back" },
+	{ "keys": ["super+]"], "command": "jump_forward" },
+
+	{ "keys": ["super+ctrl+]"], "command": "indent" },
+	// { "keys": ["super+k", "super+]"], "command": "reindent", "args": {"single_line": true} },
+	{ "keys": ["super+ctrl+["], "command": "unindent" },
+]

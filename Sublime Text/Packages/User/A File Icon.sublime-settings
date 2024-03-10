@@ -1,0 +1,9 @@
+// A File Icon Preferences – User
+// ================================================================
+{
+    "color": "var(base_tint)",
+    "color_on_select": "var(base_tint)",
+    "opacity": 0.3,
+    "opacity_on_hover": 0.3,
+    "opacity_on_select": 0.3,
+}

@@ -1,0 +1,54 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+    "variables":
+    {
+        "blue3": "#242936",
+    },
+    "globals":
+    {
+        "background": "#242936",
+        "foreground": "#cccac2",
+    },
+    "rules":
+    [
+        // markup
+        {
+            "name": "markup code",
+            "scope": "markup.raw",
+            "foreground": "var(green)",
+            "background": "none"
+        },
+        {
+            "name": "markup code",
+            "scope": "markup.raw.inline",
+            "background": "none"
+        },
+        {
+            "name": "markup code",
+            "scope": "markup.raw",
+            "foreground": "var(green)",
+            "background": "none"
+        },
+
+        {"scope":      "markup.heading",
+         "font_style": "bold"},
+
+        {"scope":      "markup.italic",
+         "font_style": "italic"},
+
+        {"scope":      "markup.bold",
+         "font_style": "bold"},
+
+        {"scope":      "markup.bold & markup.italic",
+         "font_style": "bold italic"},
+
+        {"scope":      "markup.underline.link, punctuation.definition.link, punctuation.definition.image, punctuation.definition.metadata, punctuation.separator.path.markdown, meta.link.inline, meta.image.inline",
+         "foreground": "var(blue4)"},
+
+        {"scope":      "meta.link.inline.description, meta.image.inline.description",
+         "foreground": "var(white3)"},
+
+        {"scope":      "markup.underline.link",
+         "font_style": "underline"},
+    ]
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"args":
+		{
+			"search": "^```(\\w+)$",
+			"replace": "{code:$1}"
+		},
+		"command": "do_find_replace"
+	},
+	{
+		"args":
+		{
+			"search": "^```$",
+			"replace": "{code}"
+		},
+		"command": "do_find_replace"
+	},
+	{
+		"args":
+		{
+			"search": "^(.*)\\[(.*)\\]\\((.*)\\)(.*)$",
+			"replace": "$1[$2|$3]$4"
+		},
+		"command": "do_find_replace"
+	},
+]

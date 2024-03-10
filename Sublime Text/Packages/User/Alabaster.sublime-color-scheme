@@ -1,0 +1,68 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+    "variables": {},
+    "globals": {
+        // "highlight": "var(blue)",
+    },
+    "rules": [
+        {
+            "name": "Keyword",
+            "scope": "keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "neovintageous_search_inc",
+            // "background": "#ffffff",
+            "background": "var(orange)",
+            "foreground": "#000"
+        },
+        {
+            "scope": "neovintageous_search_cur",
+            "background": "var(orange)",
+            "foreground": "#000"
+        },
+        {
+            "scope": "neovintageous_search_occ",
+            "background": "color( var(orange) alpha(0.2) )",
+            "foreground": "#000"
+        },
+        {
+            "scope": "highlightedyank",
+            "background": "var(selection)"
+        },
+
+        // markup
+        {
+            "name": "markup code",
+            "scope": "markup.raw",
+            "foreground": "var(green)",
+            "background": "none"
+        },
+
+        {"scope":      "markup.heading",
+         "font_style": "bold"},
+
+        {"scope":      "markup.italic",
+         "font_style": "italic"},
+
+        {"scope":      "markup.bold",
+         "font_style": "bold"},
+
+        {"scope":      "markup.bold & markup.italic",
+         "font_style": "bold italic"},
+
+        {"scope":      "punctuation.definition.link, punctuation.definition.image, punctuation.definition.metadata, punctuation.separator.path.markdown, meta.link.inline, meta.image.inline",
+         "foreground": "#c6c5c2"},
+
+        {"scope":      "meta.link.inline.description, meta.image.inline.description",
+         "foreground": "#000"},
+
+        {"scope":      "markup.underline.link",
+         "font_style": "underline"},
+     ]
+}

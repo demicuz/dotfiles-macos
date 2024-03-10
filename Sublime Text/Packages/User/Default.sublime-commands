@@ -1,0 +1,7 @@
+[
+	{
+		"caption": "Confluencify",
+		"command": "run_macro_file",
+		"args": {"file": "Packages/User/Confluencify.sublime-macro"}
+	}
+]
