@@ -13,6 +13,7 @@
         "MarkdownEditing",
         "Vintage",
     ],
+    "rulers": [120],
     "save_on_focus_lost": true,
     "scroll_context_lines": 6,
     "line_padding_top": 1,
@@ -43,13 +44,13 @@
 
     // Themes and color schemes
     "theme": "auto",
-    "dark_theme": "ayu-mirage.sublime-theme",
-    "light_theme": "ayu-light.sublime-theme",
+    "dark_theme": "Default Dark.sublime-theme",
+    "light_theme": "Default.sublime-theme",
     "color_scheme": "auto",
     "dark_color_scheme": "Mariana.sublime-color-scheme",
-    "light_color_scheme": "ayu-light.sublime-color-scheme",
+    "light_color_scheme": "Alabaster.sublime-color-scheme",
 
     "ui_native_titlebar": false,
-    "ui_separator": false,
+    "ui_separator": true,
     "ui_wide_scrollbars": true,
 }
