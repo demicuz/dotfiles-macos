@@ -1,14 +1,10 @@
 " Copy to system clipboard
 set clipboard=unnamed
 
-nnoremap gh ^
-nnoremap gl $
-
-vnoremap gh ^
-vnoremap gl $
-
-nnoremap j gj
-nnoremap k gk
+vnoremap gh g^
+vnoremap gl g$
+nnoremap gh g^
+nnoremap gl g$
 
 vnoremap j gj
 vnoremap k gk

@@ -53,4 +53,5 @@
     "ui_native_titlebar": false,
     "ui_separator": true,
     "ui_wide_scrollbars": true,
+    "update_check": false,
 }

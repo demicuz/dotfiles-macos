@@ -7,6 +7,7 @@
 	{ "keys": ["super+alt+plus"], "command": "increase_font_size" },
 	{ "keys": ["super+alt+minus"], "command": "decrease_font_size" },
 	{ "keys": ["alt+h"], "command": "sublime_merge_file_history" },
+	{ "keys": ["shift+alt+h"], "command": "sublime_merge_line_history" },
 
 	{ "keys": ["super+["], "command": "jump_back" },
 	{ "keys": ["super+]"], "command": "jump_forward" },
@@ -15,5 +16,6 @@
 	// { "keys": ["super+k", "super+]"], "command": "reindent", "args": {"single_line": true} },
 	{ "keys": ["super+ctrl+["], "command": "unindent" },
 
-	{ "keys": ["super+option+l"], "command": "sublime_json_reindent" }
+	{ "keys": ["super+option+l"], "command": "sublime_json_reindent" },
+	{ "keys": ["super+;"], "command": "toggle_side_bar" },
 ]
